@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SquareCalculator
 {
-    class Circle : Figure
+    public class Circle : Figure
     {
         public double Radius { get; }
         public Circle(double radius)

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SquareCalculator
 {
-    class Triangle : Figure
+    public class Triangle : Figure
     {
         public double SideA { get; }
         public double SideB { get; }
