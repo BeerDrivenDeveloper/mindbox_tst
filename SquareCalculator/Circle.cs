@@ -18,7 +18,7 @@ namespace SquareCalculator
             Radius = radius;
         }
 
-        protected override double CalculateSquare()
+        public override double CalculateSquare()
         {
             return Math.PI * Radius * Radius;
         }

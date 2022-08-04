@@ -2,6 +2,6 @@
 {
     public abstract class Figure
     {
-        protected abstract double CalculateSquare();
+        public abstract double CalculateSquare();
     }
 }

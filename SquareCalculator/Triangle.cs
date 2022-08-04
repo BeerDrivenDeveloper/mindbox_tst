@@ -34,7 +34,7 @@ namespace SquareCalculator
             return 2*couldBeHypotenuse*couldBeHypotenuse == sides[0] * sides[0] + sides[1] * sides[1] + sides[2] * sides[2];
         }
 
-        protected override double CalculateSquare()
+        public override double CalculateSquare()
         {
             if (this.IsRight)
             {
